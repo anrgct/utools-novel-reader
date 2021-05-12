@@ -1018,10 +1018,10 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.9.3:
-  version "0.9.7"
-  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.9.7.tgz#ea0d639cbe4b88ec25fbed4d6ff00c8d788ef70b"
-  integrity sha1-6g1jnL5LiOwl++1Nb/AMjXiO9ws=
+esbuild@^0.11.19:
+  version "0.11.20"
+  resolved "https://registry.nlark.com/esbuild/download/esbuild-0.11.20.tgz?cache=0&sync_timestamp=1620435704293&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fesbuild%2Fdownload%2Fesbuild-0.11.20.tgz#7cefa1aee8b372c184e42457885f7ce5d3e62a1e"
+  integrity sha1-fO+hruizcsGE5CRXiF985dPmKh4=
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -2212,12 +2212,12 @@ run-parallel@^1.1.9:
   dependencies:
     queue-microtask "^1.2.2"
 
-rxjs@^6.6.7:
-  version "6.6.7"
-  resolved "https://registry.nlark.com/rxjs/download/rxjs-6.6.7.tgz?cache=0&sync_timestamp=1618937184268&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frxjs%2Fdownload%2Frxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
-  integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
+rxjs@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.nlark.com/rxjs/download/rxjs-7.0.0.tgz?cache=0&sync_timestamp=1619722245240&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frxjs%2Fdownload%2Frxjs-7.0.0.tgz#c55d67c52aee8804d32ab60965e335bd41e2dc2d"
+  integrity sha1-xV1nxSruiATTKrYJZeM1vUHi3C0=
   dependencies:
-    tslib "^1.9.0"
+    tslib "~2.1.0"
 
 safe-buffer@~5.1.1:
   version "5.1.2"
@@ -2472,7 +2472,7 @@ ts-easing@^0.2.0:
   resolved "https://registry.npm.taobao.org/ts-easing/download/ts-easing-0.2.0.tgz#c8a8a35025105566588d87dbda05dd7fbfa5a4ec"
   integrity sha1-yKijUCUQVWZYjYfb2gXdf7+lpOw=
 
-tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.1:
   version "1.14.1"
   resolved "https://registry.nlark.com/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1618846758811&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
@@ -2481,6 +2481,11 @@ tslib@^2.1.0:
   version "2.2.0"
   resolved "https://registry.nlark.com/tslib/download/tslib-2.2.0.tgz?cache=0&sync_timestamp=1618846758811&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha1-+yxHWXfjXiQTEe3iaTzuHsZpj1w=
+
+tslib@~2.1.0:
+  version "2.1.0"
+  resolved "https://registry.nlark.com/tslib/download/tslib-2.1.0.tgz?cache=0&sync_timestamp=1618846758811&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha1-2mCGDxwuyqVwOrfTm8Bba/mIuXo=
 
 tsutils@^3.17.1:
   version "3.21.0"
@@ -2545,22 +2550,22 @@ value-equal@^1.0.1:
   resolved "https://registry.nlark.com/value-equal/download/value-equal-1.0.1.tgz#1e0b794c734c5c0cade179c437d356d931a34d6c"
   integrity sha1-Hgt5THNMXAyt4XnEN9NW2TGjTWw=
 
-vite-plugin-rsw@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.nlark.com/vite-plugin-rsw/download/vite-plugin-rsw-1.3.1.tgz#d404028e4bc5ceb9128399371bd22afdac82586b"
-  integrity sha1-1AQCjkvFzrkSg5k3G9Iq/ayCWGs=
+vite-plugin-rsw@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.nlark.com/vite-plugin-rsw/download/vite-plugin-rsw-1.4.1.tgz#f8a4d38e8398c7dd8635236a72229058ee22d694"
+  integrity sha1-+KTTjoOYx92GNSNqciKQWO4i1pQ=
   dependencies:
     chalk "^4.1.0"
     chokidar "^3.5.0"
     debug "^4.3.2"
     which "^2.0.2"
 
-vite@^2.1.5:
-  version "2.2.2"
-  resolved "https://registry.nlark.com/vite/download/vite-2.2.2.tgz?cache=0&sync_timestamp=1619281063906&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvite%2Fdownload%2Fvite-2.2.2.tgz#9ad2063929ecd632f16dc9471217e26992938aad"
-  integrity sha1-mtIGOSns1jLxbclHEhfiaZKTiq0=
+vite@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.nlark.com/vite/download/vite-2.3.0.tgz?cache=0&sync_timestamp=1620717595577&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvite%2Fdownload%2Fvite-2.3.0.tgz#02b007c7aa4ac88cc18f854b9c68e4fbe76e3ef4"
+  integrity sha1-ArAHx6pKyIzBj4VLnGjk++duPvQ=
   dependencies:
-    esbuild "^0.9.3"
+    esbuild "^0.11.19"
     postcss "^8.2.1"
     resolve "^1.19.0"
     rollup "^2.38.5"
