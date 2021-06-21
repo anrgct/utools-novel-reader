@@ -388,11 +388,6 @@
   resolved "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha1-mKmTUWyFnrDVxMjwmDF6nqaNua0=
 
-"@types/node@^15.0.1":
-  version "15.0.1"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-15.0.1.tgz?cache=0&sync_timestamp=1619534647758&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-15.0.1.tgz#ef34dea0881028d11398be5bf4e856743e3dc35a"
-  integrity sha1-7zTeoIgQKNETmL5b9OhWdD49w1o=
-
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://registry.npm.taobao.org/@types/prop-types/download/@types/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -2551,12 +2546,10 @@ uri-js@^4.2.2:
   dependencies:
     punycode "^2.1.0"
 
-utools-helper@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.nlark.com/utools-helper/download/utools-helper-1.5.1.tgz#1a550134d68c08656f1f933d09432b1bd3a4adfc"
-  integrity sha1-GlUBNNaMCGVvH5M9CUMrG9Okrfw=
-  dependencies:
-    "@types/node" "^15.0.1"
+utools-api-types@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.nlark.com/utools-api-types/download/utools-api-types-2.0.3.tgz#4b127e327eebd46ff853c372b7c2807baf5ce161"
+  integrity sha1-SxJ+Mn7r1G/4U8Nyt8KAe69c4WE=
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
